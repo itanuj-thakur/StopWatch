@@ -1,8 +1,60 @@
 body{
-    text-align: center;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    background: linear-gradient(135deg,#373e79,#c33764);
+    background-repeat: no-repeat;
+    background-cover: all;
+
 }
-#container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#StopWatch{
+    text-align: center;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.272);
+    min-width: 80%;
+    transition: 300ms;
+}
+#StopWatch:hover{
+    transform: translateY(-4px);
+}
+
+#myH1{
+    background-color: #08efff;
+    max-width: fit-content;
+    display: inline;
+}
+#display{
+
+    font-weight: bolder;
+    font-size: 5em;
+}
+button{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: large ;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+    box-shadow:0 6px 12px rgba(0,0,0,.25);
+}
+button:hover{
+    transform: scale(1.1);
+}
+button:active{
+    transform: scale(0.9);
+}
+#start-stop{
+    background-color: greenyellow;
+}
+#reset{
+    background-color: orange;
+}
+#lap{
+    background-color: blueviolet;
 }
