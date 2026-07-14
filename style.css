@@ -4,33 +4,37 @@ body{
     justify-content:center;
     align-items:center;
     height: 100vh;
-    background: linear-gradient(135deg,#373e79,#c33764);
+    /* background: linear-gradient(135deg,#373e79,#c33764); */
     background-repeat: no-repeat;
-    background-cover: all;
+
 
 }
 #StopWatch{
     text-align: center;
     border: none;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.272);
-    min-width: 80%;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.272),-5px -5px 5px rgba(128, 128, 128, 0.272);
+    min-width:60%;
     transition: 300ms;
+        background: linear-gradient(135deg,#373e79,#c33764);
+        padding: 20px;
+
 }
 #StopWatch:hover{
     transform: translateY(-4px);
 }
 
 #myH1{
-    background-color: #08efff;
+    color: aqua;
     max-width: fit-content;
     display: inline;
+    border-radius: 10px;
 }
 #display{
-
     font-weight: bolder;
     font-size: 5em;
+    font-family: "JetBrains Mono", monospace;
 }
 button{
     margin: 20px;
