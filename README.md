@@ -23,7 +23,7 @@ A modern and responsive stopwatch application built using **HTML, CSS, and JavaS
 ## 📸 Preview
 
 > Demo Video : https://youtu.be/yAcCxt7i4GE;
-
+> Image : ![Stopwatch Screenshot](assets/image.png)
 
 
 ## 📂 Project Structure
