@@ -34,6 +34,7 @@ A modern and responsive stopwatch application built using **HTML, CSS, and JavaS
 
 ```
 Stopwatch/
+│──assets
 │── index.html
 │── style.css
 │── script.js
