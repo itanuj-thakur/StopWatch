@@ -22,19 +22,9 @@ A modern and responsive stopwatch application built using **HTML, CSS, and JavaS
 
 ## 📸 Preview
 
-> Add a screenshot or GIF of your stopwatch here.
+> Demo Video : https://youtu.be/yAcCxt7i4GE;
 
-Example:
 
-```
-images/preview.png
-```
-
-or
-
-```
-demo.gif
-```
 
 ## 📂 Project Structure
 
@@ -73,17 +63,12 @@ While building this project, I practiced:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Stopwatch.git
+git clone https://github.com/itanuj-thakur/StopWatch.git
 ```
 
 2. Open the project folder.
 
 3. Run `index.html` in your browser.
 
-## 📄 License
-
-This project is open source and available under the **MIT License**.
-
----
 
 Made with ❤️ by **Tanuj Thakur**
