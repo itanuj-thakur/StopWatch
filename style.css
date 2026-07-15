@@ -15,7 +15,7 @@ body {
     background: #1e293b;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.272), -5px -5px 5px rgba(128, 128, 128, 0.272);
-    min-width: 60%;
+    min-width: 50%;
     transition: 300ms;
     padding: 20px;
 
