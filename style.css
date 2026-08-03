@@ -14,11 +14,13 @@ body {
     border: none;
     background: #1e293b;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.272), -5px -5px 5px rgba(128, 128, 128, 0.272);
-    min-width: 50%;
-    transition: 300ms;
-    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.272),
+                -5px -5px 5px rgba(128, 128, 128, 0.272);
 
+    width: min(90%, 500px);
+    padding: 20px;
+    transition: 300ms;
+    box-sizing: border-box;
 }
 
 #StopWatch:hover {
@@ -33,17 +35,17 @@ body {
 }
 
 #display {
-    font-weight: bolder;
-    font-size: 5em;
+     font-size: clamp(2.2rem, 9vw, 5rem);
     font-family: monospace;
-    letter-spacing: 5px;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 button {
     margin: 20px;
-    width: 70px;
-    height: 70px;
-    font-size: 1.2rem;
+    width: clamp(55px, 15vw, 70px);
+    height: clamp(55px, 15vw, 70px);
+    font-size: clamp(1rem, 3vw, 1.2rem);
     font-weight: bolder;
     border: none;
     border-radius: 50%;
@@ -112,4 +114,30 @@ button:disabled {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+@media (max-width: 600px){
+
+    #StopWatch{
+        width:95%;
+        padding:18px;
+    }
+
+    #display{
+        font-size:2.8rem;
+        letter-spacing:2px;
+    }
+
+    button{
+        width:60px;
+        height:60px;
+        margin:12px;
+    }
+
+    #lapsContainer{
+        padding:10px;
+    }
+
+    #list{
+        height:180px;
+    }
 }
