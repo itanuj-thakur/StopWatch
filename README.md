@@ -20,16 +20,21 @@ A modern and responsive stopwatch application built using **HTML, CSS, and JavaS
 * JavaScript (ES6)
 * Font Awesome Icons
 
-## 📸 Preview
 
-> Demo Video : https://youtu.be/yAcCxt7i4GE;
 
+ ## 📷 Screenshot
+
+<img src="assets/image.png" alt="Stopwatch Screenshot" width="700">
+
+
+## Demo Video : https://youtu.be/yAcCxt7i4GE
 
 
 ## 📂 Project Structure
 
 ```
 Stopwatch/
+│──assets
 │── index.html
 │── style.css
 │── script.js
